@@ -1,7 +1,9 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG
-(Refer to Results/mechaCar_linear_regression)
+
+![](https://github.com/NKKhosa/MechaCar_Statistical_Analysis/blob/main/Results/mechaCar_linear_regression.png?raw=true)
+
 Variables/coefficients that provide a non-random amount of variance to the mpg values in the dataset:
 - Vehicle length
 	- Pr(>|t|) = 2.60e-12
@@ -14,11 +16,15 @@ The slope of the linear model is considered to be non-zero because there are var
 This linear model does not predict mpg of MechaCar prototypes efficiently because though the p-value (5.35e-11) is sufficiently small  and the r-squared (0.71) shows that 71% of data can be predicted using the model, the low number of significant variables (2) indicates that the model is over-fit to the dataset and may not predict efficiently.
 
 ## Summary Statistics on Suspension Coils
-(Refer to Results/total_summary, ,and Results/lot_summary)
 
 According to the total_summary dataframe, the manufacturing of the MechaCar suspension coils follows the design specifications of not exceeding 100 pounds per square-inch (PSI) in variance, as the total variance is 62.29 PSI.
 
+
+![](https://github.com/NKKhosa/MechaCar_Statistical_Analysis/blob/main/Results/total_summary.png?raw=true)
+
 However, according to the lot_summary dataframe, the manufacturing is not sufficiently meeting design specifications. Lot 1 and Lot 2 have low variance (0.98 PSI and 7.47 PSI, respectively), while Lot 3 has a large variance of 170.29 PSI, which exceeds the specifications. 
+
+![](https://github.com/NKKhosa/MechaCar_Statistical_Analysis/blob/main/Results/lot_summary.png?raw=true)
 
 ## T-Tests on Suspension Coils
 (Refer to Results/T-Tests)
